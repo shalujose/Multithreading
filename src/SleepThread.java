@@ -15,7 +15,7 @@ class SleepThread extends Thread {
 				Thread.sleep(1000);
 			}
 		}
-			catch(Exception e) {
+			catch(InterruptedException e) {
 				System.out.println("Exception catched");
 			}
 	}
