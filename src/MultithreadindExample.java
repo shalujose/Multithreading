@@ -3,8 +3,8 @@ public class MultithreadindExample extends Thread {
 
 	public void run() {
 		
-		System.out.println("Thread Name : "+Thread.currentThread().getName());
-		System.out.println("Thread Priority : "+Thread.currentThread().getPriority());
+		System.out.println("Thread Name: "+Thread.currentThread().getName());
+		System.out.println("Thread Priority: "+Thread.currentThread().getPriority());
 	}
 
 }
